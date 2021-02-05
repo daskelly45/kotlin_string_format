@@ -1,5 +1,6 @@
 # kotlin_string_format
 How to use the String.format method in Kotlin
+`
 fun main(args : Array<String>){
     var good = "good"
     var great = "great"
@@ -33,6 +34,7 @@ fun main(args : Array<String>){
     println("\nFormatting Symbols")
     table.forEach(func)
 }
+`
 
 String formatting allows developers to define a common string template and then interchange values as needed.
 
@@ -93,4 +95,4 @@ var formatTemplate = "%-2s\t%s"
 println(formatTemplate.format("%b", "Boolean") //prints %b  Boolean
 
 
-### Source = https://stonesoupprogramming.com/2017/11/17/kotlin-string-formatting/#:~:text=The%20String%20class%20has%20a,%5Dtype%E2%80%9D%20so%20for%20example.
+### [Source](https://stonesoupprogramming.com/2017/11/17/kotlin-string-formatting)
